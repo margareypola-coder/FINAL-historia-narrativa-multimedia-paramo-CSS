@@ -560,3 +560,114 @@ h5 {
     text-align: center;
 }
 
+.final-bueno {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  overflow-x: auto;
+  
+  
+  background-image: url('assets/FINAL A.png'); 
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: 31px;
+  color: #664c43;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.aprend-que-existen {
+  position: absolute;
+  top: 180px;
+  left: 48%;
+  width: 45%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #1a1a1a; /* Texto oscuro para contraste */
+}
+
+.banner-final-bueno {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #8da36d; /* Verde oliva */
+  padding: 20px 60px 20px 40px;
+  color: #483C32;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.btn-regresar {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  background-color: #8da36d; /* Verde oliva */
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #483C32;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.final-malo {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  
+  /* RUTA DE IMAGEN DEL FINAL MALO */
+  background-image: url('assets/FINAL B.png'); 
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: left;
+  font-size: 31px;
+  color: #664c43;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.al-final-nada {
+  position: absolute;
+  top: 180px;
+  left: 48%;
+  width: 45%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #FFFFFF; /* Blanco para contraste con el fuego */
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.banner-final-malo {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: rgba(163, 110, 110, 0.7); /* Fondo semi-transparente rojo */
+  padding: 20px 60px 20px 40px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.btn-regresar-malo {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  background-color: rgba(163, 110, 110, 0.7); /* Fondo semi-transparente rojo */
+  padding: 15px 30px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
