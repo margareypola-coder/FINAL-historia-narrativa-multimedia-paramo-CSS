@@ -23,7 +23,7 @@
 
 
 h1 {
-  font-family: 'montserrat alternates';
+  font-family: 'Montserrat Alternates';
   color: rgba(102, 76, 67, 1) ;
   size: 61px;
   line-height: 73.20px;
@@ -33,7 +33,7 @@ h1 {
 h4 {
   color: #664C43;
   font-size: 31px;
-  font-family: Montserrat Alternates;
+  font-family: "Montserrat Alternates";
   font-weight: 600;
   line-height: 37.20px;
 }
@@ -469,7 +469,7 @@ h5 {
     left: 0;
     top: 0;
     overflow: hidden;
-    background-image: url(https://placehold.co/1440x1024);
+    background-image: url(assets/Fondo Personajes.png);
 }
 
 .personajes-bg img {
@@ -497,7 +497,7 @@ h5 {
     justify-content: center;
     color: #FDB98C;
     font-size: 16px;
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates";
     font-weight: 400;
     line-height: 19.2px;
 }
