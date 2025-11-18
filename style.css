@@ -469,7 +469,7 @@ h5 {
     left: 0;
     top: 0;
     overflow: hidden;
-    background-image: url(assets/Fondo Personajes.png);
+    background-image: url('assets/Fondo Personajes.png');
 }
 
 .personajes-bg img {
