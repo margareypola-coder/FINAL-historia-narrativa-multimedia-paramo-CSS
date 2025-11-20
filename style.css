@@ -101,6 +101,7 @@ h5 {
 
 /* --- BOTÓN --- */
 .button {
+  font-family: 'Montserrat Alternates';
   display: inline-block;
   text-decoration: none;
   background-color: #8aba6b; /* Verde suave */
@@ -169,6 +170,7 @@ h5 {
 
 /* --- BOTÓN NARANJA --- */
 .buttonB {
+  font-family: 'Montserrat Alternates';
   display: inline-block;
   background-color: #f0a37d; /* naranja claro */
   color: #ffffff;
