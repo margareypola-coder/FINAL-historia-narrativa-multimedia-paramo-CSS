@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/*HOME*/
 .titulo {
   background: linear-gradient(90deg, rgba(163, 182, 117, 1), rgba(72, 80, 51, 1));
   width: 40%;
-  
 }
 
 .botón-principal {
@@ -21,7 +20,6 @@
   margin-top: 20px;
   text-decoration: none;
 }
-
 
 h1 {
   font-family: 'Montserrat Alternates';
@@ -53,9 +51,8 @@ h5 {
   font-weight: 400;
   line-height: 120%; /* 30px */
 }
-
-/* código para capitulos A */
-
+/*HOME*/
+/*CAPÍTULOS A*/
 .container {
   display: flex;
   height: 100vh;
@@ -120,8 +117,8 @@ h5 {
 .button:hover {
   background-color: #6e9d55; /* Verde más oscuro */
 }
-
-/* código para capitulos B */
+/*CAPÍTULOS A*/
+/*CAPÍTULOS B*/
 
 /* --- CONTENEDOR PRINCIPAL --- */
 .containerB {
@@ -196,8 +193,10 @@ h5 {
     overflow: hidden;
 }
 
-/* ---------------- HEADER ---------------- */
+/*CAPÍTULOS B*/
+/*SELECCIÓN DE CAPÍTULOS*/
 
+/*HEADER*/
 .header-gradient {
     width: 1112px;
     height: 162px;
@@ -228,8 +227,7 @@ h5 {
     word-wrap: break-word;
 }
 
-/* ---------------- HOME ---------------- */
-
+/*HOME*/
 .home-btn {
     width: 366px;
     height: 90px;
@@ -256,8 +254,7 @@ h5 {
     word-wrap: break-word;
 }
 
-/* ---------------- CÍRCULOS ---------------- */
-
+/*CÍRCULOS */
 .circle-btn {
     width: 264px;
     height: 266px;
@@ -279,7 +276,6 @@ h5 {
 }
 
 /* POSICIONES INDIVIDUALES */
-
 .btn-sonido { left: 50px; top: 330px; }
 .btn-encuentro { left: 420px; top: 650px; }
 .btn-ataque { left: 1450px; top: 680px; }
@@ -290,7 +286,6 @@ h5 {
 .btn-final { left: 1550px; top: 120px; }
 
 /* Fondo general */
-
 .contenedor {
     width: 100%;
     height: 100vh;
@@ -300,10 +295,9 @@ h5 {
     background-size: cover;
     background-position: center;
 }
+/*SELECCIÓN DE CAPÍTULOS*/
+/*PERSONAJES*/
 
-/**************************
-      PERSONAJES
-**************************/
 .personajes-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -383,18 +377,15 @@ h5 {
     font-weight: 600;
     text-align: center;
 }
-
-/*FINALES*/
+/*PERSONAJES*/
+/*FINAL BUENO*/
 
 .final-bueno {
   width: 100%;
   height: 1024px;
   position: relative;
   overflow-x: auto;
-  
-  
   background-image: url('assets/FINAL A.png'); 
-  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -441,15 +432,15 @@ h5 {
   text-transform: uppercase;
   text-align: center;
 }
+/*FINAL BUENO*/
+/*FINAL MALO*/
+
 .final-malo {
   width: 100%;
   height: 1024px;
   position: relative;
   overflow: hidden;
-  
-  /* RUTA DE IMAGEN DEL FINAL MALO */
   background-image: url('assets/FINAL B.png'); 
-  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -497,3 +488,4 @@ h5 {
   text-transform: uppercase;
   text-align: center;
 }
+/*FINAL MALO*/
