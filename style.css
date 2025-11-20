@@ -244,6 +244,7 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
 
 .home-text {
