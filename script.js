@@ -49,7 +49,9 @@ slider.addEventListener('pointerdown', (e) => {
   slider.setPointerCapture(e.pointerId);
   startX = e.clientX;
   scrollStart = slider.scrollLeft;
-  e.preventDefault();
+  if (slider.matches(':hover')) {
+    e.preventDefault();
+
 });
 
 slider.addEventListener('pointermove', (e) => {
