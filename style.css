@@ -61,6 +61,7 @@
 }
 .btn:hover {
   background-color: #FDB98C; /* Verde más oscuro */
+  transform: scale(1.1);
 }
 
 .btn div {
@@ -123,6 +124,7 @@
 }
 .opcion:hover {
   background-color: #84994F; /* Verde más oscuro */
+  transform: scale(1.1);
 }
 
 .opcion div {
@@ -225,6 +227,7 @@
 /* --- HOVER BOTÓN --- */
 .button:hover {
   background-color: #6e9d55; /* Verde más oscuro */
+  transform: scale(1.1);
 }
 /*CAPÍTULOS A*/
 /*CAPÍTULOS B*/
@@ -299,6 +302,7 @@
 /* --- HOVER (NARANJA MÁS OSCURO) --- */
 .buttonB:hover {
   background-color: #e08f68; /* tono más oscuro */
+  transform: scale(1.1);
 }
 .container {
     width: 100%;
@@ -647,5 +651,6 @@ body {
 }
 .btn-regresar-malo:hover{
   background-color:#72492E;
+  transform: scale(1.1);
 }
 /*FINAL MALO*/
