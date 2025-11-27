@@ -242,84 +242,77 @@ h5 {
 
 /*HEADER*/
 .header-gradient {
-    width: 1112px;
-    height: 162px;
-    left: 2205px;
-    top: 0px;
-    position: absolute;
-    background: linear-gradient(90deg, #84994F 62%, #A3B675 88%);
+   width: 1112px;
+   height: 162px;
+   left: 2205px;
+   top: 0px;
+   position: absolute;
+   background: linear-gradient(90deg, #84994F 62%, #A3B675 88%);
 }
 
 .title-box {
-    width: 880px;
-    left: 2308px;
-    top: 45px;
-    position: absolute;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 32px;
-    overflow: hidden;
+   width: 880px;
+   left: 2308px;
+   top: 45px;
+   position: absolute;
+   display: inline-flex;
+   align-items: center;
+   gap: 32px;
+   overflow: hidden;
 }
 
 .title-text {
-    color: #225BBD;
-    font-size: 61px;
-    font-family: "Montserrat Alternates";
-    font-weight: 700;
-    line-height: 73.20px;
-    word-wrap: break-word;
+   color: #225BBD;
+   font-size: 61px;
+   font-family: "Montserrat Alternates";
+   font-weight: 700;
+   line-height: 73.2px;
 }
 
-/*HOME*/
+/* HOME */
 .home-btn {
-    width: 366px;
-    height: 90px;
-    padding: 10px;
-    left: 50px;
-    top: 47px;
-    position: absolute;
-    background: #679FFF;
-    border-radius: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
+   width: 366px;
+   height: 90px;
+   padding: 10px;
+   left: 50px;
+   top: 47px;
+   position: absolute;
+   background: #679FFF;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
 }
 
 .home-text {
-    text-align: center;
-    color: #225BBD;
-    font-size: 31px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
-    line-height: 37.20px;
-    word-wrap: break-word;
+   color: #225BBD;
+   font-size: 31px;
+   font-family: "Montserrat Alternates";
+   font-weight: 600;
 }
 
-/*CÍRCULOS */
+/* CÍRCULOS */
 .circle-btn {
-    width: 160px;
-    height: 160px;
-    padding: 10px;
-    position: absolute;
-    background: #497FDE;
-    border-radius: 360px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    text-align: center;
-    color: #A3B675;
-    font-size: 15px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
-    line-height: 37.20px;
-    word-wrap: break-word;
+   width: 160px;
+   height: 160px;
+   padding: 10px;
+   position: absolute;
+   background: #497FDE;
+   border-radius: 360px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: #A3B675;
+   font-size: 15px;
+   font-family: "Montserrat Alternates";
+   font-weight: 600;
+   line-height: 20px;
+   text-decoration: none;
 }
 
-/* POSICIONES INDIVIDUALES */
+/* POSICIONES */
 .btn-sonido { left: 50px; top: 330px; }
 .btn-encuentro { left: 250px; top: 580px; }
 .btn-ataque { left: 650px; top: 500px; }
@@ -329,16 +322,17 @@ h5 {
 .btn-activista { left: 800px; top: 250px; }
 .btn-final { left: 1240px; top: 400px; }
 
-/* Fondo general */
+/* FONDO GENERAL */
 .contenedor {
-    width: 2000px;
-    height: 850px;
-    position: relative;
-    overflow: hidden;
-    background-image: url('assets/SELECCIÓN DE CAPÍTULOS.png');
-    background-size: cover;
-    background-position: center;
+   width: 2000px;
+   height: 850px;
+   position: relative;
+   overflow: hidden;
+   background-image: url('assets/SELECCIÓN DE CAPÍTULOS.png');
+   background-size: cover;
+   background-position: center;
 }
+
 /*SELECCIÓN DE CAPÍTULOS*/
 /*PERSONAJES*/
 
