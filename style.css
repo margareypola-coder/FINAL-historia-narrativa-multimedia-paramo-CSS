@@ -159,6 +159,8 @@
 .container {
   display: flex;
   width:100%;
+  background-image: url('assets/Fondo A.jpg');
+  background-repeat:round;
 }
 
 /* --- SECCIÓN DE LA IMAGEN --- */
@@ -179,7 +181,7 @@
   height: 100%;
   overflow-y: auto;
   padding: 60px 50px;
-  color: #4c4c4c;
+  color: #ffe7c9;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -235,7 +237,8 @@
 /* --- CONTENEDOR PRINCIPAL --- */
 .containerB {
   display: flex;
-  height: 100vh;
+  height: 100%;
+  background-image: url('assets/Fondo B.jpg');
 }
 
 /* --- SECCIÓN DE IMAGEN --- */
@@ -257,7 +260,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  color: #4c4c4c; /* gris oscuro del texto */
+  color: #9f8f7c;
 }
 
 /* --- CAJA DEL TÍTULO (ROJA) --- */
