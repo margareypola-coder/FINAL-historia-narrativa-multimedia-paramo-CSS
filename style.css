@@ -665,3 +665,24 @@ body {
   transform: scale(1.1);
 }
 /*FINAL MALO*/
+
+/* BLOQUE DE IMAGEN AL LADO DERECHO DE LOS BOTONES */
+.intro-side-box {
+    position: absolute;
+    left: 380px;   /* justo después de los botones y antes del oso */
+    top: 250px;    /* alineado verticalmente con los botones */
+    width: 60px;   /* DEBE ser pequeño para caber antes del oso */
+    text-align: center;
+    color: white;
+}
+
+.intro-side-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.intro-side-box p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 16px;
+}
