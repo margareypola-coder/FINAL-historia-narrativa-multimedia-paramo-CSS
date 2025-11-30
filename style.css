@@ -669,9 +669,9 @@ body {
 /* BLOQUE DE IMAGEN AL LADO DERECHO DE LOS BOTONES */
 .intro-side-box {
     position: absolute;
-    left: 380px;   /* justo después de los botones y antes del oso */
-    top: 250px;    /* alineado verticalmente con los botones */
-    width: 60px;   /* DEBE ser pequeño para caber antes del oso */
+    left: 1000px;  
+    top: 250px;   
+    width: 150px;  
     text-align: center;
     color: white;
 }
